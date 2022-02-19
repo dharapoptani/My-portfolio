@@ -1,0 +1,51 @@
+.projects{
+    margin: 2rem 0;
+    width: 80%;
+    max-width: 800px;
+}
+
+.projects_body{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.card{
+    max-width: 350px;
+    max-height: 580px;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 7px;
+    background-color: black;
+}
+
+.card img{
+
+    width: 100%;
+    background-position: center;
+    background-size: contain;
+}
+
+.card button{
+        display: block;
+        text-decoration: none;
+        width: 50%;
+        margin: 1rem auto;
+        
+        padding: 0.4rem;
+        font-weight: bold;
+        border-radius: 15px;
+        background: transparent;
+
+}
+
+.card a{
+    text-decoration: none;
+}
+
+.card_info{
+    margin: 0.6rem;
+}
+.card_info h3{
+    margin: 0 0 0.7rem 0;
+}
