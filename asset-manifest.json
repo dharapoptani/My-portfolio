@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/My-portfolio/static/css/main.b03eaf4d.css",
+    "main.js": "/My-portfolio/static/js/main.6a1c8281.js",
+    "static/js/787.0c3f432a.chunk.js": "/My-portfolio/static/js/787.0c3f432a.chunk.js",
+    "static/media/wapp.png": "/My-portfolio/static/media/wapp.0c50f8f9d0163a601dda.png",
+    "static/media/mapp.png": "/My-portfolio/static/media/mapp.35539526aaf4ecaa8bb3.png",
+    "static/media/spaceInvaders.png": "/My-portfolio/static/media/spaceInvaders.311e44ca72587b141fcc.png",
+    "static/media/bg.png": "/My-portfolio/static/media/bg.69b8480c7a20f72690c7.png",
+    "static/media/fb.png": "/My-portfolio/static/media/fb.c633973fe960dbda3c61.png",
+    "static/media/covid.png": "/My-portfolio/static/media/covid.85d1b3a6bbcdc5974c32.png",
+    "static/media/mypic.jpg": "/My-portfolio/static/media/mypic.5d62086589174b4c6363.jpg",
+    "static/media/instagram.png": "/My-portfolio/static/media/instagram.79535458a8a6d88f81d4.png",
+    "static/media/LeetCode.png": "/My-portfolio/static/media/LeetCode.c79f333b12595d3eec8f.png",
+    "static/media/cc.png": "/My-portfolio/static/media/cc.e70be7121ff1cd44caaf.png",
+    "static/media/gmail.png": "/My-portfolio/static/media/gmail.26c40547e3a5cceca652.png",
+    "index.html": "/My-portfolio/index.html",
+    "main.b03eaf4d.css.map": "/My-portfolio/static/css/main.b03eaf4d.css.map",
+    "main.6a1c8281.js.map": "/My-portfolio/static/js/main.6a1c8281.js.map",
+    "787.0c3f432a.chunk.js.map": "/My-portfolio/static/js/787.0c3f432a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b03eaf4d.css",
+    "static/js/main.6a1c8281.js"
+  ]
+}
