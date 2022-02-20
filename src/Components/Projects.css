@@ -6,46 +6,65 @@
 
 .projects_body{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     margin-top: 2rem;
+    flex-wrap: wrap;
+}
+
+.project_title{
+    font-size: 1.7rem;
+    font-weight: bold;
+    margin-top: 1rem;
+    color: rgb(13, 137, 194);
 }
 
 .card{
-    max-width: 350px;
-    max-height: 580px;
-    width: 100%;
-    overflow: hidden;
-    border-radius: 7px;
-    background-color: black;
-}
+    width: 320px;
+    border-radius: 10px;
+    box-shadow: 7px 7px 7px rgb(59, 59, 59),
+    -4px -4px 4px rgb(58, 58, 58);
+    margin: 1.5rem 1rem 2rem 0;
 
-.card img{
-
-    width: 100%;
-    background-position: center;
-    background-size: contain;
-}
-
-.card button{
-        display: block;
-        text-decoration: none;
-        width: 50%;
-        margin: 1rem auto;
-        
-        padding: 0.4rem;
-        font-weight: bold;
-        border-radius: 15px;
-        background: transparent;
-
-}
-
-.card a{
-    text-decoration: none;
 }
 
 .card_info{
-    margin: 0.6rem;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 1rem;
 }
-.card_info h3{
-    margin: 0 0 0.7rem 0;
+
+.card img{
+    width: 100%;
+    background-size: contain;
+}
+
+.stack_body{
+    margin: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+}
+.stack_body p{
+    margin: 1rem 1rem 0.3rem 1rem;
+}
+
+.button_body{
+    display: flex;
+}
+
+.button_body button{
+    margin: 0 1.5rem;
+    padding: 0.7rem;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+@media screen and (max-width:850px) {
+    .projects_body{
+        justify-content: center;
+    }
 }

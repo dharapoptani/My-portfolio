@@ -5,7 +5,7 @@ import "./Skills.css";
 const Skills = () => {
   return (
     <div className="skills">
-      <h1 className="heading">More About Me</h1>
+      <p className="too_big heading">More About Me</p>
 
       <div className="skills_info">
         <p>
@@ -16,7 +16,7 @@ const Skills = () => {
         </p>
 
         <div className="skills_info_table">
-          <h3>Some of my skills</h3>
+          <p className="side_heading">Some of my skills</p>
           <div className="table">
             {SkillsInfo.map((skill) => {
               return <h4>{skill}</h4>;

@@ -1,8 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Corinthia:wght@700&family=Luxurious+Roman&family=Merriweather:wght@700&family=Poppins:wght@200&display=swap');
+
 html{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     background-color: gray;
+    font-family: 'Redressed', cursive;
 }
 
 .app_body{
@@ -49,11 +52,12 @@ button{
     color:white;
 }
 
-.dark a{
-    background-color: transparent;
+.dark .nav-menu{
+    background-color: black;
+}
+.dark .nav-menu a{
     color: white;
 }
-
 
 h3{
     color: lightcoral;
@@ -65,9 +69,8 @@ button{
    color :rgb(13, 137, 194);
 }
 .dark button a{
-    color:rgb(13, 137, 194);
+    color: rgb(13, 137, 194) ;
 }
-
 
 @media screen and (max-width:900px) {
     .app_container{
@@ -77,4 +80,51 @@ button{
 
     }
     
+}
+
+.too_big{
+    font-size: 2.5rem;
+    color: rgb(13, 137, 194);
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+}
+
+.heading{
+    border-bottom: 4px solid rgb(13, 137, 194);
+}
+
+.small_underline{
+
+    width: 70px;
+    height: 5px;
+    background: lightcoral ;
+    margin: 1rem 0;
+    box-shadow: 1px 1px 2px lightpink;
+}
+
+.side_heading{
+    font-size: 20px;
+    color: lightcoral ;
+    font-weight: bold;
+    margin: 1.5rem 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+.footer{
+    margin: 2rem 0;
+    color: gray;
+    width: 100%;
+    text-align: center;
+}
+.footer h3{
+    margin-top: 1rem;
+    color: gray;
+}
+.footer_line{
+    width: 100vw;
+    height: 3px;
+    background-color: gray;
 }

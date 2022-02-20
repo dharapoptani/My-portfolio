@@ -22,10 +22,13 @@ const Navbar = () => {
       <div className="burger" onClick={() => setIsClicked(!isClicked)}>
         <i className={isClicked ? "fas fa-times" : "fas fa-bars"}></i>
       </div>
-      <ul className={isClicked ? "nav-menu active" : "nav-menu"}>
+      <ul
+        className={isClicked ? "nav-menu active" : "nav-menu"}
+        onClick={() => setIsClicked(!isClicked)}
+      >
         <li>
           <EmailIcon />
-          <a href="#contact-id">Contact</a>
+          <a href="#footer-id">Contact</a>
         </li>
         <li>
           <ContactsIcon />

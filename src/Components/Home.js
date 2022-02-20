@@ -8,8 +8,7 @@ const Home = () => {
         <img src={mypic} alt="" />
       </div>
       <div className="home_info">
-        <h3>HEY THERE</h3>
-        <h1>I'm Dhara</h1>
+        <p className="too_big">Hi There , I'm Dhara </p>
         <p>
           Welcome to my corner of internet.I'm glad that you are here.I'm
           pursuing Bachelor's of Technology in the stream of computer
@@ -23,7 +22,7 @@ const Home = () => {
             href="https://drive.google.com/file/d/1FEj-x0-0WvhfSU8sioC4vcQbkuWzwYTr/view?usp=sharing"
             download="Resume"
           >
-            Download CV
+            Preview CV
           </a>
         </button>
       </div>

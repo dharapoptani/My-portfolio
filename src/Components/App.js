@@ -6,6 +6,7 @@ import Skills from "./Skills";
 import FindMe from "./FindMe";
 import Projects from "./Projects";
 import { ModeContext } from "./Light";
+import Footer from "./Footer";
 
 const App = () => {
   const { dark } = ModeContext();
@@ -17,6 +18,7 @@ const App = () => {
         <Skills />
         <Projects />
         <FindMe />
+        <Footer />
       </div>
     </div>
   );

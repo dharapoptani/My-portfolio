@@ -30,6 +30,8 @@
     display: flex;
     width: 50%;
     justify-content: space-around;
+    
+    background-color: transparent;
 }
 
 .nav-menu li{
@@ -46,6 +48,7 @@
      cursor: pointer;
      font-weight: bold;
      margin-left: 0.7rem;
+     background-color: transparent;
 }
 
 
@@ -88,7 +91,7 @@
         justify-content: start;
         transition: all 1s ease-out;
         z-index: 10;
-        background-color: aliceblue;  
+        background-color: white;  
         top: 0;     
         padding-top: 2rem;
                            
