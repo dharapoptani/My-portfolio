@@ -6,6 +6,7 @@ html{
     box-sizing: border-box;
     background-color: gray;
      font-family: 'Redressed', cursive;
+     font-weight: bold;
    
 }
 
@@ -134,5 +135,6 @@ a{
 @media screen and (max-width:700px) {
     html{
         font-family: 'Courier New', Courier, monospace;
+        letter-spacing: 1px;
     }
 }
